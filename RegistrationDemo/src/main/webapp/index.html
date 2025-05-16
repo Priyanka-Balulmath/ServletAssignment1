@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    
+    <form action="PersonalInfoServlet" method="post">
+        <label for="firstname">FirstName:</label>                                                                                                                                                                                                                                                                      
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        <label for="lastname">LastName:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        <label for="middlename">MiddleName:</label>                                                                                                                                                                                                                                                                      
+        <input type="text" id="middlename" name="middlename" required><br><br>
+        <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
